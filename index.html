@@ -1,0 +1,1547 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Stock Funding UK | Revolving Stock Finance for UK SMEs | AIM Financial Solutions</title>
+<meta name="description" content="Release the value locked in your stock. Flexible revolving stock funding facilities for UK SMEs. Get a free funding review from AIM Financial Solutions.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Lora:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --navy: #0d2240;
+    --navy-mid: #163460;
+    --navy-light: #1e4a88;
+    --gold: #c8952a;
+    --gold-light: #e8b84b;
+    --gold-pale: #fdf4e3;
+    --white: #ffffff;
+    --off-white: #f7f8fa;
+    --text: #1a2535;
+    --text-mid: #3d5068;
+    --text-muted: #6b7f94;
+    --border: #dce4ef;
+    --success: #1a7a4a;
+  }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    font-family: 'Outfit', sans-serif;
+    font-size: 16px;
+    color: var(--text);
+    background: var(--white);
+    line-height: 1.6;
+  }
+
+  /* ── NAV ── */
+  nav {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: var(--navy);
+    padding: 0 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 72px;
+    box-shadow: 0 2px 20px rgba(0,0,0,0.25);
+  }
+
+  .nav-brand {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    text-decoration: none;
+  }
+
+  .nav-logo-mark {
+    width: 40px;
+    height: 40px;
+    background: var(--gold);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+    font-size: 18px;
+    color: var(--navy);
+    letter-spacing: -1px;
+    flex-shrink: 0;
+  }
+
+  .nav-brand-text {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.1;
+  }
+
+  .nav-brand-main {
+    font-size: 15px;
+    font-weight: 700;
+    color: var(--white);
+    letter-spacing: 0.02em;
+  }
+
+  .nav-brand-sub {
+    font-size: 10px;
+    font-weight: 400;
+    color: rgba(255,255,255,0.6);
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+
+  .nav-cta {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .nav-tel {
+    color: var(--gold-light);
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 0.02em;
+  }
+
+  .nav-tel:hover { color: var(--white); }
+
+  .btn-primary {
+    background: var(--gold);
+    color: var(--navy);
+    font-family: 'Outfit', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 10px 22px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    transition: background 0.2s, transform 0.15s;
+    letter-spacing: 0.01em;
+    white-space: nowrap;
+  }
+
+  .btn-primary:hover {
+    background: var(--gold-light);
+    transform: translateY(-1px);
+  }
+
+  .btn-primary:active { transform: translateY(0); }
+
+  .btn-outline {
+    background: transparent;
+    color: var(--white);
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 12px 28px;
+    border-radius: 6px;
+    border: 2px solid rgba(255,255,255,0.4);
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    transition: border-color 0.2s, background 0.2s;
+  }
+
+  .btn-outline:hover {
+    border-color: var(--white);
+    background: rgba(255,255,255,0.08);
+  }
+
+  /* ── HERO ── */
+  .hero {
+    background: var(--navy);
+    padding: 80px 5% 0;
+    display: grid;
+    grid-template-columns: 1fr 420px;
+    gap: 60px;
+    align-items: end;
+    min-height: 580px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .hero::before {
+    content: '';
+    position: absolute;
+    top: -80px;
+    right: -80px;
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(200,149,42,0.08) 0%, transparent 70%);
+    pointer-events: none;
+  }
+
+  .hero-eyebrow {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: rgba(200,149,42,0.15);
+    border: 1px solid rgba(200,149,42,0.4);
+    color: var(--gold-light);
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    padding: 6px 14px;
+    border-radius: 30px;
+    margin-bottom: 24px;
+  }
+
+  .hero-eyebrow::before {
+    content: '';
+    width: 6px;
+    height: 6px;
+    background: var(--gold);
+    border-radius: 50%;
+  }
+
+  .hero h1 {
+    font-family: 'Outfit', sans-serif;
+    font-size: clamp(34px, 4.5vw, 58px);
+    font-weight: 800;
+    color: var(--white);
+    line-height: 1.1;
+    letter-spacing: -0.02em;
+    margin-bottom: 24px;
+  }
+
+  .hero h1 span {
+    color: var(--gold);
+  }
+
+  .hero-desc {
+    font-size: 18px;
+    color: rgba(255,255,255,0.7);
+    line-height: 1.65;
+    max-width: 560px;
+    margin-bottom: 36px;
+  }
+
+  .hero-actions {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    flex-wrap: wrap;
+    margin-bottom: 48px;
+  }
+
+  .hero-trust-line {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    flex-wrap: wrap;
+  }
+
+  .trust-pill {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    color: rgba(255,255,255,0.55);
+    font-size: 13px;
+    font-weight: 500;
+  }
+
+  .trust-pill svg { flex-shrink: 0; }
+
+  /* FORM CARD in hero */
+  .hero-form-card {
+    background: var(--white);
+    border-radius: 16px 16px 0 0;
+    padding: 36px 32px 40px;
+    box-shadow: 0 -8px 40px rgba(0,0,0,0.3);
+    position: relative;
+    z-index: 2;
+  }
+
+  .form-label-top {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    margin-bottom: 4px;
+    display: block;
+  }
+
+  .form-card-title {
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--navy);
+    margin-bottom: 6px;
+    line-height: 1.2;
+  }
+
+  .form-card-sub {
+    font-size: 14px;
+    color: var(--text-muted);
+    margin-bottom: 24px;
+  }
+
+  .form-row {
+    margin-bottom: 14px;
+  }
+
+  .form-row label {
+    display: block;
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--text-mid);
+    margin-bottom: 5px;
+  }
+
+  .form-row input,
+  .form-row select {
+    width: 100%;
+    padding: 11px 14px;
+    border: 1.5px solid var(--border);
+    border-radius: 8px;
+    font-family: 'Outfit', sans-serif;
+    font-size: 14px;
+    color: var(--text);
+    background: var(--white);
+    transition: border-color 0.2s;
+    appearance: none;
+    -webkit-appearance: none;
+  }
+
+  .form-row input:focus,
+  .form-row select:focus {
+    outline: none;
+    border-color: var(--navy-light);
+    box-shadow: 0 0 0 3px rgba(30,74,136,0.12);
+  }
+
+  .form-row select {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%236b7f94' stroke-width='1.5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 14px center;
+    padding-right: 36px;
+    cursor: pointer;
+  }
+
+  .form-submit {
+    width: 100%;
+    background: var(--navy);
+    color: var(--white);
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 14px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    margin-top: 6px;
+    transition: background 0.2s, transform 0.15s;
+    letter-spacing: 0.01em;
+  }
+
+  .form-submit:hover { background: var(--navy-light); transform: translateY(-1px); }
+  .form-submit:active { transform: translateY(0); }
+
+  .form-privacy {
+    text-align: center;
+    font-size: 11px;
+    color: var(--text-muted);
+    margin-top: 12px;
+  }
+
+  /* ── STATS BAR ── */
+  .stats-bar {
+    background: var(--gold);
+    padding: 22px 5%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0;
+  }
+
+  .stat-item {
+    text-align: center;
+    padding: 0 20px;
+    border-right: 1px solid rgba(13,34,64,0.15);
+  }
+
+  .stat-item:last-child { border-right: none; }
+
+  .stat-number {
+    font-size: 26px;
+    font-weight: 800;
+    color: var(--navy);
+    line-height: 1;
+    margin-bottom: 4px;
+    letter-spacing: -0.02em;
+  }
+
+  .stat-label {
+    font-size: 12px;
+    font-weight: 500;
+    color: rgba(13,34,64,0.65);
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+  }
+
+  /* ── SECTIONS ── */
+  section { padding: 80px 5%; }
+
+  .section-eyebrow {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 12px;
+  }
+
+  .section-title {
+    font-size: clamp(26px, 3vw, 38px);
+    font-weight: 800;
+    color: var(--navy);
+    line-height: 1.15;
+    letter-spacing: -0.02em;
+    margin-bottom: 16px;
+  }
+
+  .section-subtitle {
+    font-size: 17px;
+    color: var(--text-mid);
+    line-height: 1.65;
+    max-width: 580px;
+  }
+
+  /* ── WHAT IS IT ── */
+  .explainer {
+    background: var(--off-white);
+  }
+
+  .explainer-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    align-items: center;
+    margin-top: 50px;
+  }
+
+  .explainer-visual {
+    background: var(--navy);
+    border-radius: 16px;
+    padding: 40px;
+    color: var(--white);
+  }
+
+  .flow-steps {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .flow-step {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    position: relative;
+    padding-bottom: 28px;
+  }
+
+  .flow-step:last-child { padding-bottom: 0; }
+
+  .flow-step::after {
+    content: '';
+    position: absolute;
+    left: 17px;
+    top: 36px;
+    width: 2px;
+    bottom: 0;
+    background: rgba(200,149,42,0.3);
+  }
+
+  .flow-step:last-child::after { display: none; }
+
+  .step-dot {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background: var(--gold);
+    color: var(--navy);
+    font-size: 14px;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+
+  .step-content h4 {
+    font-size: 15px;
+    font-weight: 700;
+    color: var(--white);
+    margin-bottom: 4px;
+  }
+
+  .step-content p {
+    font-size: 13px;
+    color: rgba(255,255,255,0.6);
+    line-height: 1.5;
+  }
+
+  .explainer-points { list-style: none; }
+
+  .explainer-points li {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    padding: 14px 0;
+    border-bottom: 1px solid var(--border);
+    font-size: 15px;
+    color: var(--text-mid);
+    line-height: 1.5;
+  }
+
+  .explainer-points li:last-child { border-bottom: none; }
+
+  .check-icon {
+    width: 22px;
+    height: 22px;
+    background: #e6f4ec;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    margin-top: 1px;
+  }
+
+  /* ── WHO IT'S FOR ── */
+  .sectors-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    margin-top: 50px;
+  }
+
+  .sector-card {
+    background: var(--white);
+    border: 1.5px solid var(--border);
+    border-radius: 12px;
+    padding: 28px 24px;
+    transition: border-color 0.2s, box-shadow 0.2s, transform 0.2s;
+    cursor: default;
+  }
+
+  .sector-card:hover {
+    border-color: var(--navy-light);
+    box-shadow: 0 8px 30px rgba(13,34,64,0.1);
+    transform: translateY(-3px);
+  }
+
+  .sector-icon {
+    width: 48px;
+    height: 48px;
+    background: var(--gold-pale);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    margin-bottom: 14px;
+  }
+
+  .sector-card h3 {
+    font-size: 15px;
+    font-weight: 700;
+    color: var(--navy);
+    margin-bottom: 6px;
+  }
+
+  .sector-card p {
+    font-size: 13px;
+    color: var(--text-muted);
+    line-height: 1.5;
+  }
+
+  /* ── HOW IT WORKS ── */
+  .how-it-works { background: var(--navy); }
+  .how-it-works .section-eyebrow { color: var(--gold); }
+  .how-it-works .section-title { color: var(--white); }
+  .how-it-works .section-subtitle { color: rgba(255,255,255,0.6); }
+
+  .steps-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0;
+    margin-top: 56px;
+    position: relative;
+  }
+
+  .steps-grid::before {
+    content: '';
+    position: absolute;
+    top: 28px;
+    left: calc(12.5% + 28px);
+    right: calc(12.5% + 28px);
+    height: 2px;
+    background: rgba(200,149,42,0.3);
+  }
+
+  .step-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+  }
+
+  .step-num {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    background: var(--gold);
+    color: var(--navy);
+    font-size: 20px;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    position: relative;
+    z-index: 1;
+  }
+
+  .step-card h3 {
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--white);
+    margin-bottom: 8px;
+  }
+
+  .step-card p {
+    font-size: 13px;
+    color: rgba(255,255,255,0.55);
+    line-height: 1.6;
+  }
+
+  /* ── BENEFITS ── */
+  .benefits-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    margin-top: 56px;
+  }
+
+  .benefit-card {
+    background: var(--white);
+    border: 1.5px solid var(--border);
+    border-radius: 14px;
+    padding: 32px 28px;
+    transition: box-shadow 0.2s, transform 0.2s;
+  }
+
+  .benefit-card:hover {
+    box-shadow: 0 12px 40px rgba(13,34,64,0.09);
+    transform: translateY(-3px);
+  }
+
+  .benefit-icon-wrap {
+    width: 52px;
+    height: 52px;
+    background: var(--navy);
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 18px;
+  }
+
+  .benefit-card h3 {
+    font-size: 17px;
+    font-weight: 700;
+    color: var(--navy);
+    margin-bottom: 10px;
+  }
+
+  .benefit-card p {
+    font-size: 14px;
+    color: var(--text-mid);
+    line-height: 1.65;
+  }
+
+  /* ── TESTIMONIALS ── */
+  .testimonials { background: var(--off-white); }
+
+  .testimonials-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    margin-top: 50px;
+  }
+
+  .testimonial-card {
+    background: var(--white);
+    border-radius: 14px;
+    padding: 30px 28px;
+    border: 1.5px solid var(--border);
+  }
+
+  .stars {
+    color: var(--gold);
+    font-size: 16px;
+    margin-bottom: 14px;
+    letter-spacing: 2px;
+  }
+
+  .testimonial-card blockquote {
+    font-size: 14px;
+    color: var(--text-mid);
+    line-height: 1.7;
+    font-style: italic;
+    margin-bottom: 20px;
+    font-family: 'Lora', serif;
+  }
+
+  .testimonial-author {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .author-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: var(--navy);
+    color: var(--gold);
+    font-size: 14px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+
+  .author-info { line-height: 1.3; }
+
+  .author-name {
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--navy);
+  }
+
+  .author-role {
+    font-size: 12px;
+    color: var(--text-muted);
+  }
+
+  /* ── CTA ── */
+  .cta-section {
+    background: var(--navy);
+    text-align: center;
+    padding: 90px 5%;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .cta-section::before {
+    content: '';
+    position: absolute;
+    top: -100px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 800px;
+    height: 400px;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(200,149,42,0.1) 0%, transparent 65%);
+    pointer-events: none;
+  }
+
+  .cta-section .section-title {
+    color: var(--white);
+    max-width: 700px;
+    margin: 0 auto 16px;
+  }
+
+  .cta-section .section-subtitle {
+    color: rgba(255,255,255,0.6);
+    max-width: 520px;
+    margin: 0 auto 40px;
+  }
+
+  .cta-actions {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+
+  .btn-gold-lg {
+    background: var(--gold);
+    color: var(--navy);
+    font-family: 'Outfit', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 16px 36px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    transition: background 0.2s, transform 0.15s;
+  }
+
+  .btn-gold-lg:hover { background: var(--gold-light); transform: translateY(-2px); }
+
+  /* ── FOOTER ── */
+  footer {
+    background: #07152b;
+    padding: 50px 5% 30px;
+  }
+
+  .footer-top {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1fr;
+    gap: 50px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+    margin-bottom: 30px;
+  }
+
+  .footer-brand p {
+    font-size: 14px;
+    color: rgba(255,255,255,0.5);
+    line-height: 1.7;
+    margin-top: 14px;
+    max-width: 300px;
+  }
+
+  .footer-col h4 {
+    font-size: 13px;
+    font-weight: 700;
+    color: rgba(255,255,255,0.9);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    margin-bottom: 16px;
+  }
+
+  .footer-col ul { list-style: none; }
+
+  .footer-col ul li { margin-bottom: 10px; }
+
+  .footer-col ul li a {
+    font-size: 14px;
+    color: rgba(255,255,255,0.5);
+    text-decoration: none;
+    transition: color 0.2s;
+  }
+
+  .footer-col ul li a:hover { color: var(--gold-light); }
+
+  .footer-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+
+  .footer-bottom p {
+    font-size: 12px;
+    color: rgba(255,255,255,0.3);
+  }
+
+  .footer-links {
+    display: flex;
+    gap: 20px;
+  }
+
+  .footer-links a {
+    font-size: 12px;
+    color: rgba(255,255,255,0.3);
+    text-decoration: none;
+    transition: color 0.2s;
+  }
+
+  .footer-links a:hover { color: rgba(255,255,255,0.6); }
+
+  /* ── MOBILE ── */
+  @media (max-width: 900px) {
+    .hero {
+      grid-template-columns: 1fr;
+      padding-bottom: 0;
+      min-height: auto;
+    }
+
+    .hero-form-card { border-radius: 16px; margin-top: 40px; }
+
+    .stats-bar { grid-template-columns: repeat(2, 1fr); gap: 20px; }
+    .stat-item { border-right: none; border-bottom: 1px solid rgba(13,34,64,0.15); padding-bottom: 20px; }
+    .stat-item:nth-child(2n) { border-bottom: 1px solid rgba(13,34,64,0.15); }
+    .stat-item:last-child, .stat-item:nth-last-child(2) { border-bottom: none; }
+
+    .explainer-grid { grid-template-columns: 1fr; }
+    .steps-grid { grid-template-columns: repeat(2, 1fr); }
+    .steps-grid::before { display: none; }
+    .benefits-grid { grid-template-columns: 1fr 1fr; }
+    .testimonials-grid { grid-template-columns: 1fr; }
+    .footer-top { grid-template-columns: 1fr; gap: 30px; }
+    .footer-bottom { flex-direction: column; text-align: center; }
+  }
+
+  @media (max-width: 600px) {
+    .sectors-grid { grid-template-columns: 1fr 1fr; }
+    .benefits-grid { grid-template-columns: 1fr; }
+    .steps-grid { grid-template-columns: 1fr; }
+    nav .nav-tel { display: none; }
+    .hero h1 { font-size: 30px; }
+  }
+
+  /* Animations */
+  @keyframes fadeUp {
+    from { opacity: 0; transform: translateY(20px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+
+  .hero-content > * {
+    animation: fadeUp 0.6s ease both;
+  }
+
+  .hero-content > *:nth-child(1) { animation-delay: 0.1s; }
+  .hero-content > *:nth-child(2) { animation-delay: 0.2s; }
+  .hero-content > *:nth-child(3) { animation-delay: 0.3s; }
+  .hero-content > *:nth-child(4) { animation-delay: 0.4s; }
+  .hero-content > *:nth-child(5) { animation-delay: 0.5s; }
+
+  /* Form success */
+  .form-success {
+    display: none;
+    text-align: center;
+    padding: 20px 0;
+  }
+
+  .form-success-icon {
+    width: 60px;
+    height: 60px;
+    background: #e6f4ec;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 16px;
+  }
+
+  .form-success h3 {
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--navy);
+    margin-bottom: 8px;
+  }
+
+  .form-success p {
+    font-size: 14px;
+    color: var(--text-muted);
+  }
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <a class="nav-brand" href="https://www.aim-fs.co.uk" target="_blank">
+    <div class="nav-logo-mark">AIM</div>
+    <div class="nav-brand-text">
+      <span class="nav-brand-main">AIM Financial Solutions</span>
+      <span class="nav-brand-sub">stockfunding.co.uk</span>
+    </div>
+  </a>
+  <div class="nav-cta">
+    <a href="tel:01392241669" class="nav-tel">&#128222; 01392 241669</a>
+    <a href="#enquiry" class="btn-primary">Get Free Review</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero" style="padding-top:80px;">
+  <div class="hero-content">
+    <div class="hero-eyebrow">Stock Finance Specialists &mdash; UK SMEs</div>
+    <h1>Unlock the<br>Cash Tied Up<br>in Your <span>Stock</span></h1>
+    <p class="hero-desc">
+      A revolving stock funding facility lets your inventory work as hard as your team. Draw down funds as you need them, repay as stock sells &mdash; a true working capital solution built around your business cycle.
+    </p>
+    <div class="hero-actions">
+      <a href="#enquiry" class="btn-primary" style="font-size:16px; padding:14px 32px;">Get a Free Funding Review</a>
+      <a href="#how-it-works" class="btn-outline">How it works</a>
+    </div>
+    <div class="hero-trust-line">
+      <div class="trust-pill">
+        <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><circle cx="7" cy="7" r="6.5" stroke="rgba(200,149,42,0.7)"/><path d="M4 7l2 2 4-4" stroke="rgba(200,149,42,0.7)" stroke-width="1.5" stroke-linecap="round"/></svg>
+        No Cost
+      </div>
+      <div class="trust-pill">
+        <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><circle cx="7" cy="7" r="6.5" stroke="rgba(200,149,42,0.7)"/><path d="M4 7l2 2 4-4" stroke="rgba(200,149,42,0.7)" stroke-width="1.5" stroke-linecap="round"/></svg>
+        No Credit Searches
+      </div>
+      <div class="trust-pill">
+        <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><circle cx="7" cy="7" r="6.5" stroke="rgba(200,149,42,0.7)"/><path d="M4 7l2 2 4-4" stroke="rgba(200,149,42,0.7)" stroke-width="1.5" stroke-linecap="round"/></svg>
+        &pound;100m+ Funded
+      </div>
+      <div class="trust-pill">
+        <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><circle cx="7" cy="7" r="6.5" stroke="rgba(200,149,42,0.7)"/><path d="M4 7l2 2 4-4" stroke="rgba(200,149,42,0.7)" stroke-width="1.5" stroke-linecap="round"/></svg>
+        25+ Years Experience
+      </div>
+    </div>
+  </div>
+
+  <!-- LEAD FORM -->
+  <div class="hero-form-card" id="enquiry">
+    <span class="form-label-top">Free &amp; No Obligation</span>
+    <h2 class="form-card-title">Get Your Stock Funding Review</h2>
+    <p class="form-card-sub">Tell us a little about your business and we'll match you with the best lenders.</p>
+
+    <form id='lead-form' method='POST' name='stock-funding-enquiry' novalidate>
+      <input type="hidden" name="form-name" value="stock-funding-enquiry">
+      <!-- Honeypot spam filter (hidden from real users) -->
+      <p style="display:none;"><label>Don't fill this in: <input name="bot-field"></label></p>
+
+      <div class="form-row">
+        <label for="fname">Full Name</label>
+        <input type="text" id="fname" name="full-name" placeholder="Jane Smith" autocomplete="name" required>
+      </div>
+      <div class="form-row">
+        <label for="company">Company Name</label>
+        <input type="text" id="company" name="company-name" placeholder="Your Business Ltd" required>
+      </div>
+      <div class="form-row">
+        <label for="phone">Phone Number</label>
+        <input type="tel" id="phone" name="phone" placeholder="07700 900000" autocomplete="tel" required>
+      </div>
+      <div class="form-row">
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email" placeholder="you@yourbusiness.co.uk" autocomplete="email">
+      </div>
+      <div class="form-row">
+        <label for="stock-value">Approximate Stock Value</label>
+        <select id="stock-value" name="stock-value">
+          <option value="">Select range&hellip;</option>
+          <option>Under &pound;50,000</option>
+          <option>&pound;50,000 &ndash; &pound;150,000</option>
+          <option>&pound;150,000 &ndash; &pound;500,000</option>
+          <option>&pound;500,000 &ndash; &pound;1m</option>
+          <option>Over &pound;1m</option>
+        </select>
+      </div>
+      <div class="form-row">
+        <label for="sector">Business Sector</label>
+        <select id="sector" name="sector">
+          <option value="">Select sector&hellip;</option>
+          <option>Retail &amp; E-Commerce</option>
+          <option>Manufacturing</option>
+          <option>Wholesale &amp; Distribution</option>
+          <option>Construction &amp; Building Supplies</option>
+          <option>Food &amp; Drink</option>
+          <option>Automotive</option>
+          <option>Healthcare &amp; Medical Supplies</option>
+          <option>Other</option>
+        </select>
+      </div>
+      <button type="submit" class="form-submit">Request My Free Review &#8594;</button>
+      <p class="form-privacy">&#128274; Your details are secure and never sold to third parties.</p>
+    </form>
+
+    <div class="form-success" id="form-success">
+      <div class="form-success-icon">
+        <svg width="28" height="28" viewBox="0 0 28 28" fill="none"><path d="M7 14l5 5 9-9" stroke="#1a7a4a" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </div>
+      <h3>Thank you!</h3>
+      <p>A member of the AIM team will be in touch within one business day to discuss your funding options.</p>
+      <p style="margin-top:10px;">Or call us now: <a href="tel:01392241669" style="color:var(--navy); font-weight:600;">01392 241669</a></p>
+    </div>
+  </div>
+</section>
+
+<!-- STATS BAR -->
+<div class="stats-bar">
+  <div class="stat-item">
+    <div class="stat-number">&pound;100m+</div>
+    <div class="stat-label">Funding Secured</div>
+  </div>
+  <div class="stat-item">
+    <div class="stat-number">25+</div>
+    <div class="stat-label">Years' Experience</div>
+  </div>
+  <div class="stat-item">
+    <div class="stat-number">200+</div>
+    <div class="stat-label">Lenders &amp; Partners</div>
+  </div>
+  <div class="stat-item">
+    <div class="stat-number">48hrs</div>
+    <div class="stat-label">Average Decision</div>
+  </div>
+</div>
+
+<!-- WHAT IS STOCK FUNDING -->
+<section class="explainer">
+  <div style="max-width:600px;">
+    <p class="section-eyebrow">What is Stock Finance?</p>
+    <h2 class="section-title">Your inventory is an asset &mdash; make it work for you</h2>
+    <p class="section-subtitle">Stock funding is a revolving credit facility secured against the value of your business's inventory. As you replenish stock, your facility resets &mdash; giving you continuous access to working capital without straining your cash flow.</p>
+  </div>
+
+  <div class="explainer-grid">
+    <div class="explainer-visual">
+      <p style="font-size:12px;font-weight:600;text-transform:uppercase;letter-spacing:.1em;color:rgba(200,149,42,0.8);margin-bottom:24px;">How a Revolving Facility Works</p>
+      <div class="flow-steps">
+        <div class="flow-step">
+          <div class="step-dot">1</div>
+          <div class="step-content">
+            <h4>Stock is Assessed</h4>
+            <p>Lender values your eligible inventory &mdash; finished goods, raw materials, or traded stock.</p>
+          </div>
+        </div>
+        <div class="flow-step">
+          <div class="step-dot">2</div>
+          <div class="step-content">
+            <h4>Facility is Agreed</h4>
+            <p>You receive a credit line typically 50&ndash;70% of stock value, available to draw at any time.</p>
+          </div>
+        </div>
+        <div class="flow-step">
+          <div class="step-dot">3</div>
+          <div class="step-content">
+            <h4>Draw as Needed</h4>
+            <p>Access funds to pay suppliers, manage seasonal peaks, or grow your product range.</p>
+          </div>
+        </div>
+        <div class="flow-step">
+          <div class="step-dot">4</div>
+          <div class="step-content">
+            <h4>Repay as Stock Sells</h4>
+            <p>Repayments flex with your sales cycle. As stock moves, your facility refreshes automatically.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <p style="font-size:18px;font-weight:700;color:var(--navy);margin-bottom:16px;line-height:1.3;">Is stock funding right for your business?</p>
+      <ul class="explainer-points">
+        <li>
+          <div class="check-icon">
+            <svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M2 6l3 3 5-5" stroke="#1a7a4a" stroke-width="1.5" stroke-linecap="round"/></svg>
+          </div>
+          You hold physical stock or inventory on your balance sheet
+        </li>
+        <li>
+          <div class="check-icon">
+            <svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M2 6l3 3 5-5" stroke="#1a7a4a" stroke-width="1.5" stroke-linecap="round"/></svg>
+          </div>
+          You need to buy stock before you can sell it (advance supplier payments)
+        </li>
+        <li>
+          <div class="check-icon">
+            <svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M2 6l3 3 5-5" stroke="#1a7a4a" stroke-width="1.5" stroke-linecap="round"/></svg>
+          </div>
+          Your business has seasonal stock requirements or unpredictable demand
+        </li>
+        <li>
+          <div class="check-icon">
+            <svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M2 6l3 3 5-5" stroke="#1a7a4a" stroke-width="1.5" stroke-linecap="round"/></svg>
+          </div>
+          You want to take advantage of bulk buying discounts from suppliers
+        </li>
+        <li>
+          <div class="check-icon">
+            <svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M2 6l3 3 5-5" stroke="#1a7a4a" stroke-width="1.5" stroke-linecap="round"/></svg>
+          </div>
+          You're growing and your current working capital can't keep pace
+        </li>
+        <li>
+          <div class="check-icon">
+            <svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M2 6l3 3 5-5" stroke="#1a7a4a" stroke-width="1.5" stroke-linecap="round"/></svg>
+          </div>
+          You want a flexible facility that grows alongside your stock levels
+        </li>
+      </ul>
+      <a href="#enquiry" class="btn-primary" style="margin-top:28px;font-size:15px;padding:13px 28px;">Check Your Eligibility &mdash; Free</a>
+    </div>
+  </div>
+</section>
+
+<!-- WHO IT'S FOR -->
+<section>
+  <div style="max-width:600px;margin-bottom:0;">
+    <p class="section-eyebrow">Industries We Serve</p>
+    <h2 class="section-title">Built for any business that holds stock</h2>
+    <p class="section-subtitle">Whether you're a retailer, manufacturer, distributor or importer &mdash; if your working capital is tied up in inventory, we can help release it.</p>
+  </div>
+  <div class="sectors-grid">
+    <div class="sector-card">
+      <div class="sector-icon">&#128722;</div>
+      <h3>Retail &amp; E-Commerce</h3>
+      <p>Fund seasonal buying cycles and bulk stock purchases without draining your cash reserves.</p>
+    </div>
+    <div class="sector-card">
+      <div class="sector-icon">&#127981;</div>
+      <h3>Manufacturing</h3>
+      <p>Finance raw materials and finished goods on hand, keeping production lines moving continuously.</p>
+    </div>
+    <div class="sector-card">
+      <div class="sector-icon">&#128666;</div>
+      <h3>Wholesale &amp; Distribution</h3>
+      <p>Negotiate better supplier terms and take on larger orders with a revolving stock line.</p>
+    </div>
+    <div class="sector-card">
+      <div class="sector-icon">&#128295;</div>
+      <h3>Construction Supplies</h3>
+      <p>Maintain large materials stockholding and fulfil project contracts on time.</p>
+    </div>
+    <div class="sector-card">
+      <div class="sector-icon">&#127830;</div>
+      <h3>Food &amp; Drink</h3>
+      <p>Manage short shelf-life stock cycles and seasonal demand spikes with flexible drawdowns.</p>
+    </div>
+    <div class="sector-card">
+      <div class="sector-icon">&#128664;</div>
+      <h3>Automotive &amp; Parts</h3>
+      <p>Hold a comprehensive parts inventory without tying up significant capital for long periods.</p>
+    </div>
+    <div class="sector-card">
+      <div class="sector-icon">&#128138;</div>
+      <h3>Healthcare &amp; Medical</h3>
+      <p>Ensure stock availability of critical medical supplies and PPE at all times.</p>
+    </div>
+    <div class="sector-card">
+      <div class="sector-icon">&#128187;</div>
+      <h3>Technology &amp; Electronics</h3>
+      <p>Fund fast-moving product lines and buffer stock ahead of new product launches.</p>
+    </div>
+  </div>
+</section>
+
+<!-- HOW IT WORKS -->
+<section class="how-it-works" id="how-it-works">
+  <div style="max-width:600px;">
+    <p class="section-eyebrow">Our Process</p>
+    <h2 class="section-title">From enquiry to funding in as little as 48 hours</h2>
+    <p class="section-subtitle">We've refined a process that removes the complexity from commercial finance &mdash; you focus on running your business while we do the heavy lifting.</p>
+  </div>
+
+  <div class="steps-grid">
+    <div class="step-card">
+      <div class="step-num">1</div>
+      <h3>Free Review</h3>
+      <p>Tell us about your stock, your business, and what you need. No obligation, no credit search.</p>
+    </div>
+    <div class="step-card">
+      <div class="step-num">2</div>
+      <h3>Bespoke Match</h3>
+      <p>We search our panel of 200+ lenders to find the best-fit stock funding options for you.</p>
+    </div>
+    <div class="step-card">
+      <div class="step-num">3</div>
+      <h3>Compare Offers</h3>
+      <p>We present clear, like-for-like quotes including all fees, so you can choose with confidence.</p>
+    </div>
+    <div class="step-card">
+      <div class="step-num">4</div>
+      <h3>Funds Released</h3>
+      <p>AIM manages the process through to completion &mdash; you receive your facility and access your funds.</p>
+    </div>
+  </div>
+
+  <div style="text-align:center; margin-top:52px;">
+    <a href="#enquiry" class="btn-gold-lg">Start Your Free Review</a>
+    <p style="color:rgba(255,255,255,0.4);font-size:13px;margin-top:14px;">No searches &bull; No cost &bull; No obligation</p>
+  </div>
+</section>
+
+<!-- BENEFITS -->
+<section style="background:var(--white);">
+  <div style="max-width:600px;">
+    <p class="section-eyebrow">Why Stock Funding?</p>
+    <h2 class="section-title">The smarter way to manage working capital</h2>
+    <p class="section-subtitle">Unlike a fixed-term business loan, a revolving stock facility is designed to flex around your trading patterns &mdash; giving you more control and less financial strain.</p>
+  </div>
+
+  <div class="benefits-grid">
+    <div class="benefit-card">
+      <div class="benefit-icon-wrap">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" fill="var(--gold)"/></svg>
+      </div>
+      <h3>Revolving &mdash; Not Fixed</h3>
+      <p>Draw, repay, and redraw as many times as you need. Your facility resets as stock sells, unlike a one-time loan that depletes and disappears.</p>
+    </div>
+    <div class="benefit-card">
+      <div class="benefit-icon-wrap">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><rect x="2" y="7" width="20" height="14" rx="2" stroke="var(--gold)" stroke-width="1.8"/><path d="M16 7V5a2 2 0 00-2-2h-4a2 2 0 00-2 2v2" stroke="var(--gold)" stroke-width="1.8"/><path d="M12 12v4M10 14h4" stroke="var(--gold)" stroke-width="1.8" stroke-linecap="round"/></svg>
+      </div>
+      <h3>Preserve Your Cash Flow</h3>
+      <p>Stop using your operating cash to buy stock. Free up liquidity to pay staff, cover overheads, and invest in growth simultaneously.</p>
+    </div>
+    <div class="benefit-card">
+      <div class="benefit-icon-wrap">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M22 12h-4l-3 9L9 3l-3 9H2" stroke="var(--gold)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </div>
+      <h3>Scale With Your Business</h3>
+      <p>As your stock value grows, your facility can grow with it. No need to renegotiate from scratch as your business expands.</p>
+    </div>
+    <div class="benefit-card">
+      <div class="benefit-icon-wrap">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z" stroke="var(--gold)" stroke-width="1.8" stroke-linecap="round"/></svg>
+      </div>
+      <h3>Better Supplier Terms</h3>
+      <p>Pay suppliers promptly and in full, unlocking early payment discounts and securing preferential pricing on bulk orders.</p>
+    </div>
+    <div class="benefit-card">
+      <div class="benefit-icon-wrap">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" stroke="var(--gold)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </div>
+      <h3>No Hidden Surprises</h3>
+      <p>AIM presents every offer with full fee transparency. You'll always know exactly what you're paying before you commit to anything.</p>
+    </div>
+    <div class="benefit-card">
+      <div class="benefit-icon-wrap">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" stroke="var(--gold)" stroke-width="1.8"/><path d="M12 6v6l4 2" stroke="var(--gold)" stroke-width="1.8" stroke-linecap="round"/></svg>
+      </div>
+      <h3>Fast Decisions</h3>
+      <p>Our established lender relationships mean most businesses receive a funding offer within 24&ndash;48 hours of submitting their review.</p>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section class="testimonials">
+  <div style="max-width:600px;">
+    <p class="section-eyebrow">Client Testimonials</p>
+    <h2 class="section-title">Trusted by UK business owners</h2>
+  </div>
+
+  <div class="testimonials-grid">
+    <div class="testimonial-card">
+      <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+      <blockquote>"AIM Financial Solutions connected us with several lenders, each presenting competitive terms. This allowed us to select the best option, secure funding swiftly and fully focus on scaling our business."</blockquote>
+      <div class="testimonial-author">
+        <div class="author-avatar">MR</div>
+        <div class="author-info">
+          <div class="author-name">Managing Director</div>
+          <div class="author-role">Gastro Pub Group, South West England</div>
+        </div>
+      </div>
+    </div>
+    <div class="testimonial-card">
+      <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+      <blockquote>"Shaun found quotes from several interested funders, compared the offers, and made it easy to identify the best deal. He dealt with all the follow-up questions so the whole process was pain free and successful."</blockquote>
+      <div class="testimonial-author">
+        <div class="author-avatar">JC</div>
+        <div class="author-info">
+          <div class="author-name">Finance Director</div>
+          <div class="author-role">Manufacturing SME, Cornwall</div>
+        </div>
+      </div>
+    </div>
+    <div class="testimonial-card">
+      <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+      <blockquote>"We were really worried about obtaining funding for our business. Spoke to Shaun and we had it sorted within days &mdash; and yes, I wrote 'within days.' Not even a week and the funds were in our account."</blockquote>
+      <div class="testimonial-author">
+        <div class="author-avatar">SP</div>
+        <div class="author-info">
+          <div class="author-name">Director</div>
+          <div class="author-role">Wholesale Distribution, UK</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT AIM -->
+<section style="background:var(--white);">
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center;">
+    <div>
+      <p class="section-eyebrow">About AIM Financial Solutions</p>
+      <h2 class="section-title">We quit the banks to support businesses like yours</h2>
+      <p style="font-size:16px;color:var(--text-mid);line-height:1.75;margin-bottom:20px;">
+        In June 2019, after 25 years working in commercial finance at NatWest and RBS, Shaun Elliott founded AIM Financial Solutions. Our mission is simple: to make commercial finance straightforward, accessible, and effective for UK SMEs.
+      </p>
+      <p style="font-size:16px;color:var(--text-mid);line-height:1.75;margin-bottom:32px;">
+        We are whole-of-market brokers &mdash; we are not tied to any lender. That means every recommendation we make is in your best interest, not ours.
+      </p>
+      <div style="display:flex;flex-direction:column;gap:12px;margin-bottom:36px;">
+        <div style="display:flex;align-items:center;gap:12px;">
+          <div class="check-icon"><svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M2 6l3 3 5-5" stroke="#1a7a4a" stroke-width="1.5" stroke-linecap="round"/></svg></div>
+          <span style="font-size:15px;color:var(--text-mid);">Whole of market &mdash; access to 200+ lenders</span>
+        </div>
+        <div style="display:flex;align-items:center;gap:12px;">
+          <div class="check-icon"><svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M2 6l3 3 5-5" stroke="#1a7a4a" stroke-width="1.5" stroke-linecap="round"/></svg></div>
+          <span style="font-size:15px;color:var(--text-mid);">FCA authorised and regulated</span>
+        </div>
+        <div style="display:flex;align-items:center;gap:12px;">
+          <div class="check-icon"><svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M2 6l3 3 5-5" stroke="#1a7a4a" stroke-width="1.5" stroke-linecap="round"/></svg></div>
+          <span style="font-size:15px;color:var(--text-mid);">Specialists in stock, invoice and asset finance</span>
+        </div>
+        <div style="display:flex;align-items:center;gap:12px;">
+          <div class="check-icon"><svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M2 6l3 3 5-5" stroke="#1a7a4a" stroke-width="1.5" stroke-linecap="round"/></svg></div>
+          <span style="font-size:15px;color:var(--text-mid);">&pound;100m+ secured for UK businesses since 2019</span>
+        </div>
+      </div>
+      <a href="https://www.aim-fs.co.uk/about-us/" target="_blank" class="btn-primary" style="font-size:15px;padding:13px 28px;">Learn About AIM</a>
+    </div>
+
+    <div style="background:var(--off-white);border-radius:20px;padding:40px;">
+      <p style="font-size:13px;font-weight:600;text-transform:uppercase;letter-spacing:.1em;color:var(--text-muted);margin-bottom:24px;">Other Funding Solutions</p>
+      <div style="display:flex;flex-direction:column;gap:12px;">
+        <a href="https://www.aim-fs.co.uk/invoice-factoring/" target="_blank" style="display:flex;align-items:center;justify-content:space-between;padding:14px 18px;background:var(--white);border:1.5px solid var(--border);border-radius:10px;text-decoration:none;color:var(--navy);font-weight:600;font-size:14px;transition:border-color .2s;">
+          Invoice Factoring
+          <span style="color:var(--gold);">&#8594;</span>
+        </a>
+        <a href="https://www.aim-fs.co.uk/invoice-discounting/" target="_blank" style="display:flex;align-items:center;justify-content:space-between;padding:14px 18px;background:var(--white);border:1.5px solid var(--border);border-radius:10px;text-decoration:none;color:var(--navy);font-weight:600;font-size:14px;transition:border-color .2s;">
+          Invoice Discounting
+          <span style="color:var(--gold);">&#8594;</span>
+        </a>
+        <a href="https://www.aim-fs.co.uk/asset-finance-brokers/" target="_blank" style="display:flex;align-items:center;justify-content:space-between;padding:14px 18px;background:var(--white);border:1.5px solid var(--border);border-radius:10px;text-decoration:none;color:var(--navy);font-weight:600;font-size:14px;transition:border-color .2s;">
+          Asset Finance
+          <span style="color:var(--gold);">&#8594;</span>
+        </a>
+        <a href="https://www.aim-fs.co.uk/business-loans/" target="_blank" style="display:flex;align-items:center;justify-content:space-between;padding:14px 18px;background:var(--white);border:1.5px solid var(--border);border-radius:10px;text-decoration:none;color:var(--navy);font-weight:600;font-size:14px;transition:border-color .2s;">
+          Business Loans
+          <span style="color:var(--gold);">&#8594;</span>
+        </a>
+        <a href="https://www.aim-fs.co.uk/merchant-cash-advance/" target="_blank" style="display:flex;align-items:center;justify-content:space-between;padding:14px 18px;background:var(--white);border:1.5px solid var(--border);border-radius:10px;text-decoration:none;color:var(--navy);font-weight:600;font-size:14px;transition:border-color .2s;">
+          Merchant Cash Advance
+          <span style="color:var(--gold);">&#8594;</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta-section">
+  <p class="section-eyebrow" style="color:var(--gold);">Ready to Get Started?</p>
+  <h2 class="section-title">Release the value locked in your stock today</h2>
+  <p class="section-subtitle">A free, no-obligation funding review takes less than two minutes. Our team will identify the best stock funding solutions available for your business.</p>
+  <div class="cta-actions">
+    <a href="#enquiry" class="btn-gold-lg">Get My Free Funding Review</a>
+    <a href="tel:01392241669" class="btn-outline" style="font-size:16px;">Call 01392 241669</a>
+  </div>
+  <p style="color:rgba(255,255,255,0.35);font-size:12px;margin-top:28px;">AIM Financial Solutions Ltd &bull; Authorised &amp; Regulated by the FCA &bull; Whole of Market Broker</p>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-top">
+    <div class="footer-brand">
+      <div style="display:flex;align-items:center;gap:12px;">
+        <div class="nav-logo-mark">AIM</div>
+        <div class="nav-brand-text">
+          <span class="nav-brand-main" style="font-size:16px;">AIM Financial Solutions</span>
+          <span class="nav-brand-sub">stockfunding.co.uk</span>
+        </div>
+      </div>
+      <p>Specialists in stock funding, invoice finance, and working capital solutions for UK SMEs. 25+ years of commercial finance expertise working for your business.</p>
+      <p style="margin-top:10px;"><a href="tel:01392241669" style="color:var(--gold-light);text-decoration:none;font-weight:600;">01392 241669</a></p>
+    </div>
+
+    <div class="footer-col">
+      <h4>Stock Funding</h4>
+      <ul>
+        <li><a href="#enquiry">Free Funding Review</a></li>
+        <li><a href="#how-it-works">How It Works</a></li>
+        <li><a href="https://www.aim-fs.co.uk/revolving-stock-facility/" target="_blank">Revolving Stock Facility</a></li>
+        <li><a href="https://www.aim-fs.co.uk/commercial-buy-now-pay-later/" target="_blank">Commercial Buy Now Pay Later</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h4>Other Solutions</h4>
+      <ul>
+        <li><a href="https://www.aim-fs.co.uk/invoice-factoring/" target="_blank">Invoice Factoring</a></li>
+        <li><a href="https://www.aim-fs.co.uk/invoice-discounting/" target="_blank">Invoice Discounting</a></li>
+        <li><a href="https://www.aim-fs.co.uk/asset-finance-brokers/" target="_blank">Asset Finance</a></li>
+        <li><a href="https://www.aim-fs.co.uk/business-loans/" target="_blank">Business Loans</a></li>
+        <li><a href="https://www.aim-fs.co.uk/about-us/" target="_blank">About AIM</a></li>
+        <li><a href="https://www.aim-fs.co.uk/contact-us/" target="_blank">Contact Us</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>&copy; 2025 AIM Financial Solutions Ltd. Registered in England &amp; Wales. Authorised and regulated by the Financial Conduct Authority.</p>
+    <div class="footer-links">
+      <a href="https://www.aim-fs.co.uk" target="_blank">Main Website</a>
+      <a href="#">Privacy Policy</a>
+      <a href="#">Cookie Policy</a>
+    </div>
+  </div>
+</footer>
+
+<script>
+  // Netlify AJAX form submission — shows inline success state, no page redirect
+  var form = document.getElementById('lead-form');
+
+  form.addEventListener('submit', function(e) {
+    e.preventDefault();
+
+    var name = document.getElementById('fname').value.trim();
+    var company = document.getElementById('company').value.trim();
+    var phone = document.getElementById('phone').value.trim();
+
+    if (!name || !company || !phone) {
+      showFormError('Please complete your name, company name, and phone number to continue.');
+      return;
+    }
+
+    var submitBtn = form.querySelector('.form-submit');
+    submitBtn.disabled = true;
+    submitBtn.textContent = 'Sending\u2026';
+
+    var data = new FormData(form);
+
+    fetch('/', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+      body: new URLSearchParams(data).toString()
+    })
+    .then(function(response) {
+      if (response.ok) {
+        form.style.display = 'none';
+        document.getElementById('form-success').style.display = 'block';
+        document.getElementById('enquiry').scrollIntoView({ behavior: 'smooth', block: 'center' });
+      } else {
+        throw new Error('Network response was not ok');
+      }
+    })
+    .catch(function() {
+      submitBtn.disabled = false;
+      submitBtn.textContent = 'Request My Free Review \u2192';
+      showFormError('Something went wrong. Please try again or call us on 01392\u00a0241669.');
+    });
+  });
+
+  function showFormError(msg) {
+    var existing = document.getElementById('form-error');
+    if (existing) existing.remove();
+    var err = document.createElement('p');
+    err.id = 'form-error';
+    err.style.cssText = 'color:#c0392b;font-size:13px;margin-top:10px;font-weight:500;';
+    err.textContent = msg;
+    form.appendChild(err);
+  }
+
+  // Smooth scroll for anchor links
+  document.querySelectorAll('a[href^="#"]').forEach(function(anchor) {
+    anchor.addEventListener('click', function(e) {
+      var target = document.querySelector(this.getAttribute('href'));
+      if (target) {
+        e.preventDefault();
+        target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+    });
+  });
+</script>
+
+</body>
+</html>
