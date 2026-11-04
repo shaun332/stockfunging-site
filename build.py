@@ -16,13 +16,14 @@ NAV = [
     ("/stock-finance/", "Stock finance"),
     ("/motor-trade-stocking-finance/", "Motor trade"),
     ("/guides/", "Guides"),
-    ("https://www.aim-fs.co.uk/about-us/", "About AIM"),
+    ("/#about", "About us"),
 ]
 
 ORG_LD = {
     "@context": "https://schema.org",
     "@type": "FinancialService",
-    "name": "AIM Financial Solutions — stockfunding.co.uk",
+    "name": "Stock Funding",
+    "logo": SITE + "/assets/logo.svg",
     "url": SITE + "/",
     "telephone": "+44 1392 241669",
     "areaServed": "GB",
@@ -47,7 +48,7 @@ def head(meta):
 <meta property="og:url" content="{SITE}{path}">
 <meta property="og:title" content="{meta.get('og_title', meta['title'])}">
 <meta property="og:description" content="{meta['description']}">
-<meta property="og:site_name" content="stockfunding.co.uk">
+<meta property="og:site_name" content="Stock Funding">
 <meta property="og:locale" content="en_GB">
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -74,10 +75,10 @@ def header(meta):
     for href, label in NAV:
         cur = ' aria-current="page"' if meta["path"].startswith(href) and href.startswith("/") else ""
         links.append(f'<a href="{href}"{cur}>{label}</a>')
-    return f"""<div class="strip"><div class="wrap"><span>Independent stock finance broker, part of AIM Financial Solutions</span><a href="tel:01392241669">Call 01392 241669</a></div></div>
+    return f"""<div class="strip"><div class="wrap"><span>Independent stock funding broker, comparing 150+ lenders</span><a href="tel:01392241669">Call 01392 241669</a></div></div>
 <header class="site-header">
   <div class="wrap">
-    <a class="brand" href="/"><img src="https://www.aim-fs.co.uk/wp-content/uploads/2024/06/aim-logo.jpg" alt="AIM Financial Solutions" width="118" height="44"><small>Stock funding<br>specialists</small></a>
+    <a class="brand" href="/"><img src="/assets/logo.svg" alt="Stock Funding" width="264" height="48"></a>
     <button class="menu-toggle" aria-expanded="false" aria-controls="nav" aria-label="Menu">
       <svg width="28" height="28" viewBox="0 0 28 28" aria-hidden="true"><path d="M4 8h20M4 14h20M4 20h20" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg>
     </button>
@@ -128,8 +129,9 @@ def footer():
   <div class="wrap">
     <div class="foot-grid">
       <div>
-        <h3>stockfunding.co.uk</h3>
-        <p>Stock and inventory finance for UK trading businesses and motor dealers, arranged by AIM Financial Solutions — a whole-of-market broker with a panel of 150+ lenders.</p>
+        <img class="foot-logo" src="/assets/logo-white.svg" alt="Stock Funding" width="264" height="48">
+        <p>Stock and inventory finance for UK trading businesses and motor dealers, from a whole-of-market broker with a panel of 150+ lenders.</p>
+        <p>Stock Funding is part of <a href="https://www.aim-fs.co.uk/">AIM Financial Solutions</a>.</p>
         <p><a href="tel:01392241669">01392 241669</a></p>
       </div>
       <div><h3>Stock funding</h3><ul>
